@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+/** - tärn tähendab KÕIK ELEMENDID*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  /** see tühistab kõik vaikimisi elementide käitumised, kasutada */
+
+body {
+    background-color: rgb(25, 174, 120);
+
+}
+
+.container {  
+    height: 100vh; /** akna kõrgus*/
+    margin: 0 auto; /** -joondab kasti akna keskele*/
+    width: 75%;  /** - kasti suurus akna laiusest*/
+}
+
+.title-container {
+    padding: 1rem 0;
+}
+.title-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.description-container {
+    padding: 0 1rem;
+}
+.description-container p {
+    color: chartreuse;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 20%;
+
+}
+.table-container {
+    width: 75%;
+    margin: 3rem auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#td-method {
+    padding-left: 3rem;
+}
+#td-method ul li:first-child {
+    margin-top: 2rem;
+}    
+#td-method ul li {
+    margin-bottom: 2rem;
+}
+#td-method ul li span{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#dt-ingredients {
+    text-align: right;
+}
+#dt-ingredients ul li:first-child {
+    margin-top: 1.5rem;
+}
+#dt-ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+.footer ul {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li:first-child{
+    margin-right: 5rem;
+}
+.footer ul li:last-child{
+    margin-left: 5rem;
+}
+.footer ul li a {
+    color: rgb(7, 75, 75);
+    font-size: 2rem;
+}
